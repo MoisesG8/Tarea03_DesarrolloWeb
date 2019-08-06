@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro medico</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/validar.js"></script>
+    <a href="images/fondo.jpg"></a>
+</head>
+<h1>DATOS DEL PACIENTE</h1>
+<body class="container">
+<form name="formulario"  id="formulario" onsubmit="return validar();">
+    <div class="form card-header">
+        <label for="txtFirstName" class="form-check-label" >Nombre</label>
+        <input type="text" id="fnombre" class="form-check-label" placeholder="Escriba su nombre" required><br>
+        <small class="form-text text-muted">NO DEJAR EN BLANCO</small>
+        <br>
+        <label for="txtMiddleName" class="form-check-label">Segundo Nombre</label>
+        <input type="text" id="mnombre" class="form-check-label" placeholder="Escriba su segundo nombre"><br>
+        <br>
+        <label for="txtLastName">Apellidos</label>
+        <input type="text" id="apellidos" class="form-check-label" placeholder="Escriba su apellido" required ><br>
+        <br>
+        <label for="txtDPI">DPI</label>
+        <input type="number" pattern="[0-9]" id="DPI" class="form-check-label" placeholder="Escriba su DPI" required ><br>
+        <br>
+        <label for="txtEdad">Edad</label>
+        <input type="number" id="edad" class="form-check-label" placeholder="Ingrese su edad" required><br>
+        <br>
+        <label for="txtEmail">Email</label>
+        <input type="email" id="email" class="form-check-label" placeholder="example@xxx.com" required><br>
+        <br>
+        <label for="txtTelefono">Telefono</label>
+        <input type="tel" id="telefono" class="form-check-label"  placeholder="Ingrese su numero de telefono" ><br>
+        <br>
+    </div>
+    <input type="submit" class="btn-submit">
+</form>
+<p class="text-danger"> </p>
+</body>
+</html>

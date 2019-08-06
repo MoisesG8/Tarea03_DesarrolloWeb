@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitud de empleo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css.map">
+</head>
+<h1>DATOS DE LA SOLICITUD</h1>
+<body class="container">
+<form name="#" id="formulario" >
+    <div class="form card-header">
+        <article class="col-md-auto">
+        <section class="main row">
+            <label class="container">DATOS PERSONA</label>
+<table border="6">
+        <th>NOMBRES</th>
+        <br>
+       <tr>
+       <td>
+            <input type="text" id="txtnombres" class="form-check-label" placeholder="Escriba sus nombres" required >
+            <br>
+        </td>
+    </tr>
+        <th>APELLIDOS</th>
+        <br>
+        <tr>
+        <td>
+            <input type="text" id="txtapellidos" class="form-check-label" placeholder="Escriba sus apellidos" required ><br>
+        </td>
+</tr>
+    <th>DPI</th>
+    <br>
+    <tr>
+        <td>
+            <input type="number" id="txtdpi" class="form-check-label" placeholder="Escriba su DPI" required>
+        </td>
+    </tr>
+    <th>EDAD</th>
+    <br>
+    <tr>
+        <td>
+            <input type="number" id="txtedad" class="form-check-label" placeholder="Escriba su edad">
+        </td>
+    </tr>
+    <th>ESTADO CIVIL</th>
+    <br>
+    <tr>
+        <td>
+            <input type="text" id="txtestado" class="form-check-label" placeholder="Escriba su estado civil">
+        </td>
+    </tr>
+<div>
+    <th>TELEFONO</th>
+    <br>
+    <tr>
+        <td>
+            <input type="number" id="txtcel" class="form-check-label" placeholder="Escriba su numero de telefono">
+        </td>
+    </tr>
+    </div>
+
+</table>
+
+            <table  border="6">
+                <th>FECHA DE NACIMIENTO</th>
+                <br>
+                <tr>
+                    <td>
+                        <input type="date" id="txtfnacimiento" class="form-check-label" required >
+                        <br>
+                    </td>
+                </tr>
+                <th>PROFESION</th>
+                <br>
+                <tr>
+                    <td>
+                        <input type="text" id="txtprofesion" class="form-check-label" placeholder="ingrese su profesion" required >
+                        <br>
+                    </td>
+                </tr>
+                <th>DIRECCION</th>
+                <br>
+                <tr>
+                    <td>
+                        <input type="text" id="txtadress" class="form-check-label" placeholder="ingrese su direccion" required >
+                        <br>
+                    </td>
+                </tr>
+                <th>CORREO ELECTRONICO</th>
+                <br>
+                <tr>
+                    <td>
+                        <input type="email" id="txtemail" class="form-check-label" placeholder="FFFFFF@example.com" required >
+                        <br>
+                    </td>
+                </tr>
+                <th>GRADO ACADEMICO</th>
+                <br>
+                <tr>
+                    <td>
+                        <input type="text" id="txtestudios" class="form-check-label" placeholder="ingrese su grado academico" required >
+                        <br>
+                    </td>
+                </tr>
+
+            </table>
+<table border="6">
+    <th>EXPERIENCIAS LABORALES</th>
+    <br>
+    <tr>
+        <td>
+<textarea class="form-control" id="experiencia" placeholder="Ingrese su experiencia laboral"></textarea>
+            <br>
+        </td>
+    </tr>
+</table>
+        </section>
+</article>
+        <br>
+    </div>
+    <input id="btn-enviar" type="submit" class="btn-submit">
+</form>
+</body>
+</html>
